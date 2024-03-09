@@ -6,7 +6,7 @@ This MIPS program utilizes exhaustive search to find a solution from a given sta
 ## Modes
 Two modes are provided:
 - **Normal**: In this mode, tetrominoes do not rotate and only move downwards. There is no line clearing mechanism; tetrominoes will just keep stacking indefinitely. The game ends when the stack reaches the top of the playfield or it fails to find a solution.
-- **Line Clearing**: Similar to Normal Mode, tetriminoes do not rotate and only move downwards. However, in this mode, a line clearing mechanism is enabled. When a horizontal line is completely filled with blocks, it is cleared from the playing field, and all blocks above it fall down by one row. The game ends when the stack reaches the top of the playfield or it fails to find a solution.
+- **Line Clearing**: Similar to Normal Mode, tetrominoes do not rotate and only move downwards. However, in this mode, a line clearing mechanism is enabled. When a horizontal line is completely filled with blocks, it is cleared from the playing field, and all blocks above it fall down by one row. The game ends when the stack reaches the top of the playfield or it fails to find a solution.
 
 ## How to Play
 1. **Set Up the Grids**
