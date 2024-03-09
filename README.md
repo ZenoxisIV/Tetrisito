@@ -5,8 +5,8 @@ This MIPS program utilizes exhaustive search to find a solution from a given sta
 
 ## Modes
 Two modes are provided:
-- **Normal**: In this mode, tetriminoes do not rotate and only move downwards. There is no line clearing mechanism; tetriminoes will just keep stacking indefinitely. The game ends when the stack reaches the top of the playfield or it fails to find a solution.
-- **Line Clearing**: Similar to Normal Mode, tetriminoes do not rotate and only move downwards. However, in this mode, a line clearing mechanism is enabled. When a horizontal line is completely filled with blocks, it is cleared from the playing field, and all blocks above it fall down by one row. TThe game ends when the stack reaches the top of the playfield or it fails to find a solution.
+- **Normal**: In this mode, tetrominoes do not rotate and only move downwards. There is no line clearing mechanism; tetrominoes will just keep stacking indefinitely. The game ends when the stack reaches the top of the playfield or it fails to find a solution.
+- **Line Clearing**: Similar to Normal Mode, tetriminoes do not rotate and only move downwards. However, in this mode, a line clearing mechanism is enabled. When a horizontal line is completely filled with blocks, it is cleared from the playing field, and all blocks above it fall down by one row. The game ends when the stack reaches the top of the playfield or it fails to find a solution.
 
 ## How to Play
 1. **Set Up the Grids**
@@ -26,7 +26,6 @@ Two modes are provided:
 4. **Iterate and Improve**
     - Experiment with different starting configurations and goal grids.
     - Adjust the number and types of pieces to drop to increase the challenge.
-    - Refine your strategy to solve Tetris puzzles efficiently.
 
 5. **Enjoy and Share**
     - Have fun solving Tetris puzzles!
@@ -44,7 +43,7 @@ To run the program for sample test cases, follow these steps:
 3. **Run the Program**
    - Execute the following command:
      ```
-     java -jar Mars4_5.jar p ../"<Mode>"/cs21project1c.asm < "<Type>"/<number>.in
+     runtime java -jar Mars4_5.jar p ../"<Mode>"/cs21project1c.asm < "<Type>"/<number>.in
      ```
      Replace `<Mode>` with either *Normal* or *Line Clearing*, `<Type>` with *No Line Clears* or *With Line Clears*, and `<number>` with the sample test case you want to run.
 
